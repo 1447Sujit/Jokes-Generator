@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App.jsx */
+.appContainer{
+  width: 100%;
+    min-height: 100vh;
+    background: rgb(125,24,194);
+    background: radial-gradient(circle, rgba(125,24,194,1) 9%, rgba(167,103,14,1) 99%, rgba(85,15,15,1) 100%);
+
+  padding-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.appContainer h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 5px double yellow;
+  color: rgb(28, 6, 6);
+  padding: 1rem 5rem;
+}
+
+/* Jokes.jsx */
+
+.jokesBox{
+  border-radius: 10px;
+  background-color: #d3d624;
+  box-shadow: 2px 3px 15px #0932ab ;
+  height: 300px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  gap: 1rem;
+}
+
+.jokesBox p{
+  font-size: 25px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+}
+
+.jokesBox button{
+  padding: 8px 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: green;
+  color: #fff;
+}
